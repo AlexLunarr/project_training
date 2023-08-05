@@ -7,6 +7,20 @@
 4. Создай новый пустой репозиторий на GitHub.
 5. Открой проект в VSCode, запусти терминал и свяжи проект с GitHub-репозиторием
    [по инструкции](https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories#changing-a-remote-repositorys-url).
+   The git remote set-url command changes an existing remote repository URL.
+
+Tip: For information on the difference between HTTPS and SSH URLs, see "About remote repositories."
+
+The git remote set-url command takes two arguments:
+
+An existing remote name. For example, origin or upstream are two common choices.
+
+A new URL for the remote. For example:
+
+If you're updating to use HTTPS, your URL might look like:
+https://github.com/OWNER/REPOSITORY.git
+If you're updating to use SSH, your URL might look like:
+git@github.com:OWNER/REPOSITORY.git
 6. Установи зависимости проекта в терминале командой `npm install` .
 7. Запусти режим разработки, выполнив команду `npm start`.
 8. Перейди в браузере по адресу [http://localhost:3000](http://localhost:3000).
