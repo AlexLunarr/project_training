@@ -1,8 +1,8 @@
 {
-  "name": "webpack_test_2",
+  "name": "project_training",
   "version": "1.0.0",
   "repository": {
-    "url": "git+https://github.com/AlexLunarr/webpack_test_2.git"
+    "url": "git+https://github.com/AlexLunarr/project_training.git"
   },
   "description": "",
   "main": "index.js",
