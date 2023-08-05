@@ -6,14 +6,7 @@ body {
 	font-weight: 400;
 	background-color: $back;
 	color: $text;
+	text-align: center
 }
 
 ;
-
-.footer-image {
-	width: 500px;
-	height: 500px;
-	background-size: contain;
-	background-position: 50% 50%;
-	background-image: url('img/img-8-min.jpg');
-}
